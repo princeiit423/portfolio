@@ -1,7 +1,7 @@
 //import memojiImage from "src/assets/memoji-computer.png";
 const Hero=()=>{
   return (
-    <div className="py-32 flex flex-col items-center ml-9 ">
+    <div className="py-32 flex flex-col items-center  ">
       <div className="container text-white w-full flex flex-col items-center ">
       <div className="flex flex-col items-center">
         <img src="https://i.postimg.cc/J442R8RK/memoji-computer.png" className="size-[100px]" alt="emoji"/>

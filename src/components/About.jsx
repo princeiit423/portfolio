@@ -5,8 +5,8 @@ const About = () => {
     <div>
       <div className="heading flex flex-col gap-4 items-center">
         <p className="text-green-400">About me</p>
-        <h1 className="text-4xl font-semibold font-serif">Glimpses into my World</h1>
-        <p className="text-gray-500">Learn more about who i am, what i do, and what inspires me.</p>
+        <h1 className="text-4xl font-semibold font-serif p-3 text-center">Glimpses into my World</h1>
+        <p className="text-gray-500 p-3">Learn more about who i am, what i do, and what inspires me.</p>
       </div>
       <div className=""> 
       <div className="card bg-gray-900 flex flex-col border border-gray-400 rounded-lg p-7 m-4 mt-10 backdrop-blur">
@@ -20,7 +20,7 @@ const About = () => {
             <p className="text-gray-500 p-3">Explore the technology and tools i use to craft exceptional web app.</p>
             
             <div className="flex flex-row flex-wrap">
-            <div className="flex flex-row gap-3 justify-start items-center border h-12 w-40 m-3 border-gray-500 rounded-lg p-4">
+            <div className="flex flex-row gap-3 justify-start items-center border h-12 w-30 m-3 border-gray-500 rounded-lg p-4">
             <i className="fa-brands fa-js text-green-400 text-2xl rounded-2xl"></i>
                 <h1 className="text-2xl">JavaScript</h1>
                 </div>
